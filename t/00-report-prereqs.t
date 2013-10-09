@@ -12,6 +12,10 @@ use List::Util qw/max/;
 my @modules = qw(
   Data::Float
   Data::Integer
+  IO::Handle
+  List::Util
+  Math::BigFloat
+  Math::BigInt
   Test::CheckDeps
   Test::Exception
   Test::More
@@ -19,7 +23,10 @@ my @modules = qw(
   Type::Library
   Type::Tiny
   Types::Standard
+  base
+  constant
   perl
+  warnings
 );
 
 # replace modules with dynamic results from MYMETA.json if we can
