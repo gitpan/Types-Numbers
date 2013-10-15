@@ -14,7 +14,6 @@ my @modules = qw(
   Data::Integer
   IO::Handle
   List::Util
-  Math::BigFloat
   Math::BigInt
   Test::CheckDeps
   Test::Exception
