@@ -12,9 +12,12 @@ use List::Util qw/max/;
 my @modules = qw(
   Data::Float
   Data::Integer
+  Error::TypeTiny
   IO::Handle
   List::Util
+  Math::BigFloat
   Math::BigInt
+  Scalar::Util
   Test::CheckDeps
   Test::Exception
   Test::More
